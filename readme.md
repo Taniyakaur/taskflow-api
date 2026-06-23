@@ -1,5 +1,6 @@
 # TaskFlow API
 
+TaskFlow API is a RESTful task management backend built with FastAPI and PostgreSQL. It enables users to create, organize, update, and track tasks efficiently through a clean and scalable API.
 ## Key Highlights
 
 - RESTful API built with FastAPI
@@ -21,12 +22,12 @@
 
 ## Tech Stack
 
-* Python
-* FastAPI
-* PostgreSQL
-* SQLAlchemy
-* Pydantic
-* Uvicorn
+- **Python 3.13**
+- **FastAPI** – web framework
+- **PostgreSQL** – database
+- **SQLAlchemy** – ORM
+- **Pydantic** – data validation
+- **Docker** – local database setup
 
 ## API Endpoints
 
@@ -38,18 +39,6 @@
 | PUT    | /tasks/{id} | Update a task            |
 | DELETE | /tasks/{id} | Delete a task            |
 
-## Learning Outcomes
-
-This project demonstrates backend development fundamentals, including REST API design, database integration, data validation, and clean architecture practices using FastAPI and PostgreSQL.
-
-## Tech Stack
-
-- **Python 3.13**
-- **FastAPI** – web framework
-- **PostgreSQL** – database
-- **SQLAlchemy** – ORM
-- **Pydantic** – data validation
-- **Docker** – local database setup
 
 ## Project Structure
 taskflow-api/
