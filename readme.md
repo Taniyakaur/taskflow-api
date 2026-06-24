@@ -8,7 +8,7 @@ TaskFlow API is a RESTful task management backend built with FastAPI and Postgre
 - Dockerized database setup
 - Input validation with Pydantic
 - Automatic OpenAPI/Swagger documentation
-- Clean layered architecture (routes, schemas, models, database)
+- Layered architecture (routes, schemas, models, database)
 
 ## Features
 
